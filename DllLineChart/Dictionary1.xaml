@@ -1,0 +1,163 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:DllLineChart">
+
+	<SolidColorBrush x:Key="Background1" Color="Black"/>
+	<SolidColorBrush x:Key="Background2" Color="Blue"/>
+	<SolidColorBrush x:Key="Foreground1" Color="Yellow"/>
+	<SolidColorBrush x:Key="Foreground2" Color="White"/>
+	<SolidColorBrush x:Key="GraphicsBush" Color="Lime"/>
+
+	<!-- Style for Ellipses which are used in plotted line vertices. ===================================== -->
+	<Style TargetType="Ellipse">
+		<Style.Setters>
+			<Setter Property="Cursor" Value="Cross"/>
+			<Setter Property="Fill" Value="{StaticResource GraphicsBush}"/>
+			<Setter Property="Height" Value="12"/>
+			<Setter Property="Stroke" Value="Transparent"/>
+			<Setter Property="StrokeThickness" Value="5"/>
+			<Setter Property="Width" Value="12"/>
+		</Style.Setters>
+		<Style.Triggers>
+			<Trigger Property="IsMouseOver" Value="true">
+				<Setter Property="Fill" Value="{StaticResource Background1}"/>
+				<Setter Property="Stroke" Value="{StaticResource Foreground1}"/>
+				<Setter Property="StrokeThickness" Value="2"/>
+			</Trigger>
+		</Style.Triggers>
+	</Style>
+
+	<!-- Style 1 for labels. ===================================== -->
+	<Style x:Key="LabelStyle1">
+		<Style.Setters>
+			<Setter Property="Label.Background" Value="Transparent"/>
+			<Setter Property="Label.FontFamily" Value="Calibri"/>
+			<Setter Property="Label.FontSize" Value="11"/>
+			<Setter Property="Label.Foreground" Value="{StaticResource Foreground1}"/>
+			<Setter Property="Label.HorizontalContentAlignment" Value="Center"/>
+			<Setter Property="Label.Padding" Value="0 0 0 0"/>
+		</Style.Setters>
+	</Style>
+
+	<!-- Style 2 for labels. ===================================== -->
+	<Style x:Key="LabelStyle2">
+		<Style.Setters>
+			<Setter Property="Label.Background" Value="Transparent"/>
+			<Setter Property="Label.FontFamily" Value="Calibri"/>
+			<Setter Property="Label.FontSize" Value="12"/>
+			<Setter Property="Label.HorizontalContentAlignment" Value="Center"/>
+			<Setter Property="Label.Padding" Value="0 0 0 0"/>
+		</Style.Setters>
+	</Style>
+
+	<!-- Style for Lines. ===================================== -->
+	<Style TargetType="Line" >
+		<Style.Setters>
+			<Setter Property="Stroke" Value="{StaticResource GraphicsBush}"/>
+			<Setter Property="StrokeThickness" Value="1"/>
+		</Style.Setters>
+	</Style>
+
+	<!-- Style for polygon. ===================================== -->
+	<Style TargetType="Polygon" >
+		<Style.Setters>
+			<Setter Property="Fill" Value="{StaticResource GraphicsBush}"/>
+			<Setter Property="Opacity" Value="0.5"/>
+		</Style.Setters>
+	</Style>
+
+	<!-- Style for polyline. ===================================== -->
+	<Style TargetType="Polyline" >
+		<Style.Setters>
+			<Setter Property="Stroke" Value="{StaticResource GraphicsBush}"/>
+			<Setter Property="StrokeThickness" Value="2"/>
+		</Style.Setters>
+	</Style>
+
+	<!-- Style for ScrollViewer. ===================================== -->
+	<Style x:Key="Scroller" TargetType="{x:Type ScrollViewer}" BasedOn="{StaticResource {x:Type ScrollViewer}}">
+		<Setter Property="Focusable" Value="False" />
+		<Setter Property="OverridesDefaultStyle" Value="True" />
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ScrollViewer}">
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto" />
+							<ColumnDefinition />
+						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition />
+							<RowDefinition Height="Auto" />
+						</Grid.RowDefinitions>
+						<!--<Border Grid.Column="1"
+                    BorderThickness="0,1,1,1">
+							<Border.BorderBrush>
+								<SolidColorBrush Color="{DynamicResource BorderMediumColor}" />
+							</Border.BorderBrush>
+							<ScrollContentPresenter />
+						</Border>-->
+						
+						<!-- Redefine border thickness to 0 so our tick marks line up exactly right. -->
+						<Border Grid.Column="1"
+                    BorderThickness="0,0,0,0">
+							<!--<Border.BorderBrush>
+								<SolidColorBrush Color="{DynamicResource BorderMediumColor}" />
+							</Border.BorderBrush>-->
+							<ScrollContentPresenter />
+						</Border>
+						
+						<ScrollBar x:Name="PART_VerticalScrollBar"
+                       Value="{TemplateBinding VerticalOffset}"
+                       Maximum="{TemplateBinding ScrollableHeight}"
+                       ViewportSize="{TemplateBinding ViewportHeight}"
+                       Visibility="{TemplateBinding ComputedVerticalScrollBarVisibility}"/>
+						
+						<!-- Update to use our background1 and cursor = 'hand'. -->
+						<ScrollBar x:Name="PART_HorizontalScrollBar"
+								   Background="{StaticResource Background1}" Cursor="Hand"
+									Orientation="Horizontal"
+									Grid.Row="1"
+									Grid.Column="1"
+									Value="{TemplateBinding HorizontalOffset}"
+									Maximum="{TemplateBinding ScrollableWidth}"
+									ViewportSize="{TemplateBinding ViewportWidth}"
+									Visibility="{TemplateBinding ComputedHorizontalScrollBarVisibility}"/>
+					</Grid>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+	<!-- Style for tool tips. ===================================== -->
+	<Style TargetType="ToolTip" BasedOn="{StaticResource {x:Type ToolTip}}">
+		<Setter Property="Background" Value="Transparent"/>
+		<Setter Property="BorderBrush" Value="Transparent"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="ToolTip">
+					<Border Background="{StaticResource Foreground1}" 
+                            CornerRadius="10"
+                            BorderThickness="4">
+						<Border.Effect>
+							<DropShadowEffect BlurRadius="10"
+                                              Color="Black"
+                                              Direction="180"
+                                              Opacity="0.5"
+                                              ShadowDepth="20">
+							</DropShadowEffect>
+						</Border.Effect>
+						<Label Foreground="{StaticResource Background1}" 
+							   FontWeight="Bold">
+							<ContentPresenter
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center">
+							</ContentPresenter>
+						</Label>
+					</Border>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+</ResourceDictionary>

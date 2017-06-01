@@ -1,0 +1,27 @@
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\bin\Debug\DllLineChart.dll
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\bin\Debug\DllLineChart.pdb
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\obj\Debug\UserControl1.g.cs
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\obj\Debug\DllLineChart_MarkupCompile.cache
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\obj\Debug\DllLineChart_MarkupCompile.lref
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\obj\Debug\Dictionary1.baml
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\obj\Debug\UserControl1.baml
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\obj\Debug\DllLineChart.g.resources
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\obj\Debug\DllLineChart.Properties.Resources.resources
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\obj\Debug\DllLineChart.csproj.GenerateResource.Cache
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\obj\Debug\DllLineChart.dll
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\obj\Debug\DllLineChart.pdb
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\DllLineChart\bin\Debug\DllLineChart.dll
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\DllLineChart\bin\Debug\DllLineChart.pdb
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\DllLineChart\obj\Debug\DllLineChart.csprojResolveAssemblyReference.cache
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\DllLineChart\obj\Debug\UserControl1.g.cs
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\DllLineChart\obj\Debug\DllLineChart_MarkupCompile.cache
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\DllLineChart\obj\Debug\DllLineChart_MarkupCompile.lref
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\DllLineChart\obj\Debug\Dictionary1.baml
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\DllLineChart\obj\Debug\UserControl1.baml
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\DllLineChart\obj\Debug\DllLineChart.g.resources
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\DllLineChart\obj\Debug\DllLineChart.Properties.Resources.resources
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\DllLineChart\obj\Debug\DllLineChart.csproj.GenerateResource.Cache
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\DllLineChart\obj\Debug\DllLineChart.dll
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\DllLineChart\obj\Debug\DllLineChart.pdb
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\obj\Debug\DllLineChart.csprojResolveAssemblyReference.cache
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\DllLineChart\obj\Debug\GeneratedInternalTypeHelper.g.cs

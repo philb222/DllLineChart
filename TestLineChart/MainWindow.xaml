@@ -1,0 +1,88 @@
+﻿<Window x:Class="TestLineChart.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:lc="clr-namespace:DllLineChart;assembly=DllLineChart"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestLineChart"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="830" Width="1400" WindowStartupLocation="CenterScreen"
+		Loaded="Window_Loaded">
+    <StackPanel Margin="0 10 0 0" HorizontalAlignment="Center">
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="2">
+
+			<!--<lc:LineChart CcChartName="{Binding Path=TestChartName}" 
+						  CcYaxisDescription="This is a test" />-->
+			<!--<lc:LineChart />-->
+
+			<lc:LineChart CcChartName="Scale is 0.75, Width is 600" x:Name="Chart1" Margin="0 0 10 0"
+					  CcXaxisValues="05:00 05:10 05:20 05:30 05:40 05:50 06:00 06:10 06:20 06:30 06:40 06:50"
+					  CcXaxisDescription="Pacific Daylight Time"
+					  CcYaxisDescription="MegaWatts"
+					  CcScale="1" CcThresholdHigh="600" CcThresholdLow="300" CcWidth="600" CcHeight="500"
+						  CcYaxisTickMarks="4" CcBackground1="DarkBlue" />
+
+			<!--CcXaxisValues="05:00 05:10 05:20 05:30"-->
+			<lc:LineChart CcChartName="Scale is 0.75, Width is 700" x:Name="Chart2" 
+						  CcBackground1="Black" CcBackground2="IndianRed" CcForeground1="Red" CcForeground2="Yellow"
+						  CcGraphicsColor="White"
+					  CcXaxisValues="saaaaaaa bbbbbbbb cccccccc ddddddde eeeeeeeeef"
+					  CcXaxisDescription="Pacific Daylight Time"
+					  CcYaxisDescription="MegaWatts" CcYaxisTickMarks="3"
+					  CcScale="1" CcThresholdHigh="600" CcThresholdLow="300" 
+						  CcCanvasHorPadding="25"/>
+
+			<!--<lc:LineChart Margin="0 0 10 0" CcChartName="My Chart Name Here" 
+						  CcShowTickMarks="False" CcBackground2="Brown" />-->
+		</StackPanel>
+		<!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="5">
+			<lc:LineChart Margin="0 0 10 0" CcChartName="My Chart Name Here" CcBackground1="Firebrick" CcForeground1="BlanchedAlmond"
+						  CcForeground2="Gainsboro"
+						  CcXaxisDescription="Time"/>
+			<lc:LineChart Margin="0 0 10 0" CcChartName="My Chart Name Here" CcBackground2="Aqua" CcGraphicsBrush="Blue"
+						  CcXaxisDescription="Test is a test"/>
+		</StackPanel>-->
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="2">
+			<!--<lc:LineChart x:Name="Chart1" CcChartName="Test White Graphics Brush" CcGraphicsBrush="White"
+						  CcHeight="200"
+					  CcXaxisValues="05:00 05:10 05:20 05:30 05:40 05:50 06:00"
+					  CcXaxisDescription="Pacific Daylight Time"
+					  CcYaxisDescription="MegaWatts"/>-->
+			<!--<lc:LineChart Margin="0 0 10 0" x:Name="Chart2" CcChartName="Test Width Only 400" CcBackground2="Blue" CcGraphicsBrush="Red"
+						  CcWidth="400"
+						  CcXaxisDescription="Test is a test" CcYaxisDescription="Testing Y axis description"/>-->
+			<!--<lc:LineChart CcChartName="Test Chart Name" x:Name="Chart1" 
+					  CcXaxisValues="05:00 05:10 05:20 05:30 05:40 05:50 06:00"
+					  CcXaxisDescription="Pacific Daylight Time"
+					  CcYaxisDescription="MegaWatts"
+					  CcScale="1.0" CcThresholdHigh="600" CcThresholdLow="300"/>
+			<lc:LineChart x:Name="Chart3" CcChartName="Test White Graphics Brush" CcGraphicsBrush="White"
+					  CcXaxisValues="05:00 05:10 05:20 05:30 05:40 05:50 06:00"
+					  CcXaxisDescription="Testing unique Y scale and Height and Width"
+					  CcYaxisDescription="MegaWatts"
+						  CcHeight="240" CcWidth="340"/>-->
+			<!--<lc:LineChart CcChartName="Scale is 0.75" x:Name="Chart1" 
+					  CcXaxisValues="05:00 05:10 05:20 05:30 05:40 05:50 06:00"
+					  CcXaxisDescription="Pacific Daylight Time"
+					  CcYaxisDescription="MegaWatts"
+					  CcScale="1.0" CcThresholdHigh="600" CcThresholdLow="300" CcWidth="600"/>-->
+			<!--<lc:LineChart x:Name="Chart3" CcChartName="Scale is 0.9 and no Tick Marks" CcGraphicsBrush="White"
+					  CcXaxisValues="05:00 05:10 05:20 05:30 05:40 05:50 06:00"
+					  CcXaxisDescription="Testing unique Y scale and Height and Width"
+					  CcYaxisDescription="MegaWatts"
+						  CcHeight="240" CcWidth="340"
+						  CcScale="0.9" CcShowTickMarks="True"
+						  CcThresholdHigh="500" CcThresholdLow="300"
+						  CcShowBlips="True"/>-->
+		</StackPanel>
+		<!--<lc:LineChart CcChartName="Test Chart Name" x:Name="Chart1" 
+					  CcXaxisValues="05:00 05:10 05:20 05:30 05:40 05:50 06:00"
+					  CcXaxisDescription="Pacific Daylight Time"
+					  CcYaxisDescription="MegaWatts"
+					  CcScale="1.0" CcThresholdHigh="600" CcThresholdLow="300"/>-->
+		
+		<Button x:Name="btnQuit" Content="Quit" Click="btnQuit_Click"
+				IsCancel="True" Width="100" Height="30"
+				Margin="10"/>
+	</StackPanel>
+</Window>

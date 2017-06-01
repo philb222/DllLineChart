@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DllLineChart", "DllLineChart\DllLineChart.csproj", "{C8AFD5AB-ACB8-4FD3-969D-5A52B1D1C3CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLineChart", "TestLineChart\TestLineChart.csproj", "{B68530A5-2268-4685-B002-46E653CCE3D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8AFD5AB-ACB8-4FD3-969D-5A52B1D1C3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8AFD5AB-ACB8-4FD3-969D-5A52B1D1C3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8AFD5AB-ACB8-4FD3-969D-5A52B1D1C3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8AFD5AB-ACB8-4FD3-969D-5A52B1D1C3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68530A5-2268-4685-B002-46E653CCE3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68530A5-2268-4685-B002-46E653CCE3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68530A5-2268-4685-B002-46E653CCE3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68530A5-2268-4685-B002-46E653CCE3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

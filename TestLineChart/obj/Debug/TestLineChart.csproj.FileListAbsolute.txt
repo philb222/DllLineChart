@@ -1,0 +1,32 @@
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\obj\Debug\App.g.cs
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\obj\Debug\TestLineChart_MarkupCompile.cache
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\bin\Debug\TestLineChart.exe.config
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\bin\Debug\TestLineChart.exe
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\bin\Debug\TestLineChart.pdb
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\bin\Debug\DllLineChart.dll
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\bin\Debug\DllLineChart.pdb
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\obj\Debug\TestLineChart.csprojResolveAssemblyReference.cache
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\obj\Debug\MainWindow.g.cs
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\obj\Debug\TestLineChart_MarkupCompile.lref
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\obj\Debug\MainWindow.baml
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\obj\Debug\TestLineChart.g.resources
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\obj\Debug\TestLineChart.Properties.Resources.resources
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\obj\Debug\TestLineChart.csproj.GenerateResource.Cache
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\obj\Debug\TestLineChart.exe
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart\TestLineChart\obj\Debug\TestLineChart.pdb
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\bin\Debug\TestLineChart.exe.config
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\obj\Debug\TestLineChart.exe
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\obj\Debug\TestLineChart.pdb
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\bin\Debug\TestLineChart.exe
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\bin\Debug\TestLineChart.pdb
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\bin\Debug\DllLineChart.dll
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\bin\Debug\DllLineChart.pdb
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\obj\Debug\TestLineChart.csprojResolveAssemblyReference.cache
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\obj\Debug\MainWindow.g.cs
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\obj\Debug\App.g.cs
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\obj\Debug\TestLineChart_MarkupCompile.cache
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\obj\Debug\TestLineChart_MarkupCompile.lref
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\obj\Debug\MainWindow.baml
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\obj\Debug\TestLineChart.g.resources
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\obj\Debug\TestLineChart.Properties.Resources.resources
+C:\Users\Phillip\Documents\Visual Studio 2015\Projects\WPF\DllLineChart - Copy (2)\TestLineChart\obj\Debug\TestLineChart.csproj.GenerateResource.Cache
